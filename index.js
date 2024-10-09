@@ -12,7 +12,7 @@ function validate(){
         alert("please enter the details")
         return false;
     }else{
-        true;
+        return true;
     }
 }
 
@@ -92,16 +92,16 @@ console.log(result); // prints 6
 
 
 
-// let n = 5;
+let n1 = 5;
 
-// for(i = 0; i <= n; i++){
-//     let row = "";
-//     for(j = 1; j <= i; j++){
-//         row = row+ "* "
-//     }
-//     console.log(row)  // *
-// }                     // *  *  
-                         // *  *  *
+for(i = 0; i <= n1; i++){
+    let row = "";
+    for(j = 1; j <= i; j++){
+        row = row+ "* "
+    }
+    console.log(row)  // *
+}                     // *  *  
+                     // *  *  *
 
 
 
