@@ -236,44 +236,44 @@ if(result1 === n){
 
 // Find out palindrome names in array
 
-// let palindrome = ["Civic", "Telugu", "level", "english", "madam", "program"];
+let palindrome = ["Civic", "Telugu", "level", "english", "madam", "program"];
 
-// function isPalindrome(palindrome) { 
+function isPalindrome(palindrome) { 
 
-//     palindrome = palindrome.toLowerCase();
+    palindrome = palindrome.toLowerCase();
 
-//     return palindrome === palindrome.split("").reverse("").join("");
-// }
-
-// for (let name of palindrome) {
-
-//     if (isPalindrome(name)) {
-
-//       console.log(name, "is a palindrome.");
-
-//     } else {
-
-//       console.log(name, "is not a palindrome.");
-
-//     }
-// }
-
-let palindrome = 121;
-
-let original = palindrome;
-let reverse = 0;
-
-while(original!=0){
-    let value = original%10;
-    reverse = reverse*10+value;
-    original = Math.floor(original/10);
+    return palindrome === palindrome.split("").reverse("").join("");
 }
 
-if(reverse === palindrome){
-    console.log("palindrome")
-}else{
-    console.log("Not palindrome")
+for (let name of palindrome) {
+
+    if (isPalindrome(name)) {
+
+      console.log(name, "is a palindrome.");
+
+    } else {
+
+      console.log(name, "is not a palindrome.");
+
+    }
 }
+
+// let palindrome = 121;
+
+// let original = palindrome;
+// let reverse = 0;
+
+// while(original!=0){
+//     let value = original%10;
+//     reverse = reverse*10+value;
+//     original = Math.floor(original/10);
+// }
+
+// if(reverse === palindrome){
+//     console.log("palindrome")
+// }else{
+//     console.log("Not palindrome")
+// }
 
 
 // Find out Prime Number 
