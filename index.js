@@ -508,3 +508,24 @@ for(i=1; i<=10; i++){
     }
 }
 console.log(missingNum)
+
+
+function test(){
+    const a = b = c = "Vannala"
+}
+
+test();
+console.log(typeof a)
+console.log(typeof b)
+console.log(typeof c)
+
+function variableScopeTest() {
+    var a = b = "Sai";
+    let c = "Deepu"
+}
+
+variableScopeTest();
+
+console.log(typeof a)
+console.log(typeof b)
+console.log(typeof c)
