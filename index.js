@@ -493,11 +493,11 @@ reverseString("sai")
 
 // console.log(newStringSentence)
 
-// let sentence = "Hello I am learning javascript";
+let sentence2 = "Hello I am learning javascript";
 
-// let uniqueStr = sentence.split("").filter((char, index) => sentence.indexOf(char)=== index).join("")
+let uniqueStr = sentence2.split("").filter((char, index) => sentence.indexOf(char)=== index).join("")
 
-// console.log(uniqueStr)
+console.log(uniqueStr)
 
 let num = [1, 3, 5, 7, 9];
 let missingNum = [];
