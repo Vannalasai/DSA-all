@@ -529,3 +529,15 @@ variableScopeTest();
 console.log(typeof a)
 console.log(typeof b)
 console.log(typeof c)
+
+const str = "Deepujdkhvsjkdhkvhjvblskvlsai";
+
+function occurenceOfChar(str){
+    let ocuurence = {}
+    for(let i = 0; i < str.length; i++){
+        let char = str[i]
+        ocuurence[char] = (ocuurence[char] || 0) + 1;
+    }
+    return ocuurence;
+}
+console.log(occurenceOfChar(str))
