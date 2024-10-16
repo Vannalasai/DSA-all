@@ -563,5 +563,5 @@ const foodItems = ["Annam", "Pappu", "Potato", "egg", "chicken", "Mutton"];
 const blockItems = (foodItems.length === 0) && console.log("i am hungry"); // this condition using the logical operator when foodTems are emty. and we can also using the ternary operator in below line
 // (foodItems.length === 0) ? console.log("i am hungry") : null;
 
-const separatedItem = foodItems.map((item) => console.log(item))
+// const separatedItem = foodItems.map((item) => console.log(item))
 
