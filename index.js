@@ -530,6 +530,8 @@ console.log(typeof a)
 console.log(typeof b)
 console.log(typeof c)
 
+//Count the Characters in a String.
+
 const str = "Deepujdkhvsjkdhkvhjvblskvlsai";
 
 function occurenceOfChar(str){
@@ -541,3 +543,25 @@ function occurenceOfChar(str){
     return ocuurence;
 }
 console.log(occurenceOfChar(str))
+
+
+//promises is an object that is used to completion of resolving or rejection of Asychronus operation.
+
+const getData = () => {
+    return new Promise((resolve,reject) => {
+        setTimeout(() => resolve("Data Fetched"), 1000)
+    })
+}
+
+getData().then(result => console.log(result)).catch(err => console.log(err))
+
+//Map function using in the Array.
+
+//const foodItems = [];
+const foodItems = ["Annam", "Pappu", "Potato", "egg", "chicken", "Mutton"];
+
+const blockItems = (foodItems.length === 0) && console.log("i am hungry"); // this condition using the logical operator when foodTems are emty. and we can also using the ternary operator in below line
+// (foodItems.length === 0) ? console.log("i am hungry") : null;
+
+const separatedItem = foodItems.map((item) => console.log(item))
+
