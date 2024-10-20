@@ -565,3 +565,15 @@ const blockItems = (foodItems.length === 0) && console.log("i am hungry"); // th
 
 // const separatedItem = foodItems.map((item) => console.log(item))
 
+//findIndex()
+const list = [1, 2, 3, 4, 5];
+const index = list.findIndex(num => num > 3);
+console.log(index);
+
+//some()
+const some = list.some(num => num % 2 === 0);
+console.log(some)
+
+//every()
+const every = list.every(num => num % 2 === 0);
+console.log(every)
