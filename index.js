@@ -591,4 +591,8 @@ if(Number(age) >= 18){
     console.log("Not a elibible")
 }
 
+let x = false || {} || null;
+let y = false || null || {};
 
+console.log("x:", x)
+console.log("y:", y)
