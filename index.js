@@ -577,3 +577,16 @@ console.log(some)
 //every()
 const every = list.every(num => num % 2 === 0);
 console.log(every)
+
+//forEach()
+list.forEach(element => console.log(element)
+)
+
+let age = 18;
+console.log(typeof age);
+
+if(Number(age) >= 18){
+    console.log("your eligible");
+}else {
+    console.log("Not a elibible")
+}
