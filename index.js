@@ -582,7 +582,7 @@ console.log(every)
 list.forEach(element => console.log(element)
 )
 
-let age = 18;
+let age = "18";
 console.log(typeof age);
 
 if(Number(age) >= 18){
@@ -590,3 +590,5 @@ if(Number(age) >= 18){
 }else {
     console.log("Not a elibible")
 }
+
+
