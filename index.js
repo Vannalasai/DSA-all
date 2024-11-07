@@ -596,3 +596,15 @@ let y = false || null || {};
 
 console.log("x:", x)
 console.log("y:", y)
+
+//Number and parseInt: This methods are converts the string to number
+
+console.log(Number("123.45"))
+console.log(parseInt("123.45"))
+
+console.log(parseInt("123abc"))
+console.log(Number("123abc"))
+
+console.log(parseInt("a123"))
+console.log(parseInt("1abc", 2))
+console.log(parseInt("333", 2))
