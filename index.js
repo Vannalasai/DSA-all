@@ -608,3 +608,11 @@ console.log(Number("123abc"))
 console.log(parseInt("a123"))
 console.log(parseInt("1abc", 2))
 console.log(parseInt("333", 2))
+
+//How to work NaN Not a Number
+
+if(NaN){
+    console.log("success")
+}else{
+    console.log("fail")
+}
