@@ -616,3 +616,9 @@ if(NaN){
 }else{
     console.log("fail")
 }
+
+async function fatchData() {
+    return 1;
+}
+
+console.log(fatchData())
