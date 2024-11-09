@@ -622,3 +622,17 @@ async function fatchData() {
 }
 
 console.log(fatchData())
+
+const str1 = "madam";
+
+function inPalindrome() {
+    let palin = str1.split("").reverse().join()
+    console.log(palin)
+    if(palin === str1){
+        console.log("palindrome")
+    }else{
+        console.log("not palindrome")
+    }
+}
+
+inPalindrome()
