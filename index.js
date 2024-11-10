@@ -636,3 +636,23 @@ function inPalindrome() {
 }
 
 inPalindrome()
+
+//Amstrong Number
+
+function isAmstrongNumber(num){
+    let sum = 0;
+    let temp = num;
+
+    const numDigits = num.toString().length;
+
+    while(temp > 0){
+        const digit = temp % 10;
+        sum += Math.pow(digit, numDigits);
+        temp = Math.floor(temp / 10);
+    }
+
+    return sum === num;
+}
+
+console.log(isAmstrongNumber(153))
+console.log(isAmstrongNumber(123))
