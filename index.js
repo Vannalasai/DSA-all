@@ -655,4 +655,7 @@ function isAmstrongNumber(num){
 }
 
 console.log(isAmstrongNumber(153))
-console.log(isAmstrongNumber(123))
+console.log(isAmstrongNumber(9474))
+
+
+console.log("sandhya")
